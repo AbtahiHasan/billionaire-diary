@@ -20,8 +20,7 @@ const printData = (billionaires) => {
                 <img class="w-[100%] h-full" src="${billionaire?.person?.squareImage}" alt="Movie" />
                 </figure>
                 <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
+                <h2 class="card-title">${billionaire?.countryOfCitizenship}</h2>
                 </div>
             </div>
             <h3>Source: Amazon</h3>
